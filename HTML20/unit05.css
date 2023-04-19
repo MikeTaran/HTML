@@ -1,0 +1,54 @@
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2257e9;
+    z-index: 1000;
+    text-align: center;
+    text-decoration: dotted;
+    /* эффект при прокрутке */
+    /* opacity: 0;
+    transition: opacity 0.3s ease-in-out; */
+}
+/* header.visible {
+    opacity: 1;
+  } */
+
+.t{
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 100px auto 20px;
+}
+.rel {
+    width: 50px;
+    height: 50px;
+    position:relative;
+    background-color: orange;
+    left: 50px;
+    /* right: ;
+    top: ;
+    bottom: ; */
+} 
+.check {
+    position: relative;
+    top: 2px;
+}
+.x{
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 20px auto;
+    position: relative;
+}
+.abs {
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    left: 30px;
+    top: 100px;
+    background-color: rgb(173, 60, 139);
+    
+}
