@@ -52,3 +52,46 @@ header {
     background-color: rgb(173, 60, 139);
     
 }
+.fixed{
+    width: 50px;
+    height: 50px;
+    position:fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgb(207, 224, 111);
+    border-radius: 20%;
+    text-align: center;
+}
+.out-1{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px auto 20px;
+}
+
+.block{
+    width: 50px;
+    height: 50px;
+    position:relative;
+}
+.bg-yellow {
+background: yellow;
+}
+.bg-blue {
+background: blue;
+}
+.bg-green {
+background: green;
+}
+.t-1 {
+    left: 0px;
+    bottom: 0px;
+}
+.t-2 {
+    left: 50px;
+    bottom: 0px;
+}
+.t-3 {
+    left: 100px;
+    bottom: 100px;
+}
